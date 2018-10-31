@@ -1,7 +1,0 @@
-Promises
-	THEN()
-	CATCH()
-	GET()
-	POST()
-REST
-relational d8
