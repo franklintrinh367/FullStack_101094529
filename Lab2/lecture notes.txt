@@ -1,0 +1,95 @@
+JavaScript Refesher
+	objects vs object literals
+	(1)what is singleton?
+Node fundamentals
+	Modules, Export, Require
+	Events and Event Emmiter
+Multiple way to create object
+	Object.create()
+Modules, Export and Require
+	Modules
+	require('')
+		(2) what is exports?
+Three sources of Node modules
+	Built-in modules
+		fs, http, crypto, os
+	user's files
+	Third-party modules
+		npm install module_name
+	(3)How do modules really work?
+Event and Event emmitter
+	Event emmitter
+		synchronously and asynchronously
+	Event
+		System event
+		Custom event
+		(4)what is the core for each event?
+		Event in the Dom
+		require('event').EventEmitter
+			the publisher
+			the subscriber
+		fs.readStream()
+	HTTP and being a Web Server
+		Node as server
+			require('http')
+			createServer()
+			writeHead()
+			end()
+			listen()
+		Node as client: Handling GET
+			request()
+(5)What node needs to be a server?
+	
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(1)1 change in a object affects entire objects in script
+(2) Node module that exposes user's module so it can be used
+(3)This works because your code is actually wrapped in a function that is given these things as function parameters
+(4) C++ core for System event, adn javascript core for custom event
+(5)organize code into reusable code, communitcate over internet, accept requests and send response
