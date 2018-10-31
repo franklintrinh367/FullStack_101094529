@@ -1,0 +1,41 @@
+Promises
+	fulfilled and rejected
+	then()
+	chaining
+Express & Middleware
+	npm install express --save
+HTTP method
+	HTTP verbs
+		GET,POST,PUT,DELETE
+Defining routes
+	var app = express();
+	app.get()
+	response.send()
+	response.end()
+Routing matching
+Middleware
+	pipeline of code that gets called before your request handler
+Express middleware
+	***can has access to the next middleware in stack
+express.static
+	serve images, CSS files and JavaScript from the public directory
+GET vs POST
+	Payload
+REST
+NOSQL
+	advantages of NOSQL
+	NOSQL vs SQL
+	Relational vs Non-Relational Database
+MongoDB
+	Document-oriented NOSQL
+	MongoDB Document vs SQL Table
+	example: 
+		MongoClient = require('mongodb').MongoClient;
+		MongoClient.connect(url, function(err, db){
+			console.log("Connected");
+			db.close();
+		})
+Mongoose
+	mongoose.Schema
+	
+	
